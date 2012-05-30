@@ -1,0 +1,528 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CELL_H	cell.h	2;"	d
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+Cell	cell.cpp	/^Cell::Cell()$/;"	f	class:Cell	signature:()
+Cell	cell.h	/^    Cell();$/;"	p	class:Cell	access:public	signature:()
+Cell	cell.h	/^class Cell : public QTableWidgetItem$/;"	c	inherits:QTableWidgetItem
+Cell::Cell	cell.cpp	/^Cell::Cell()$/;"	f	class:Cell	signature:()
+Cell::Cell	cell.h	/^    Cell();$/;"	p	class:Cell	access:public	signature:()
+Cell::cacheIsDirty	cell.h	/^    mutable bool cacheIsDirty;$/;"	m	class:Cell	access:private
+Cell::cachedValue	cell.h	/^    mutable QVariant cachedValue;$/;"	m	class:Cell	access:private
+Cell::clone	cell.cpp	/^QTableWidgetItem *Cell::clone() const$/;"	f	class:Cell	signature:() const
+Cell::clone	cell.h	/^    QTableWidgetItem *clone() const;$/;"	p	class:Cell	access:public	signature:() const
+Cell::data	cell.cpp	/^QVariant Cell::data(int role) const$/;"	f	class:Cell	signature:(int role) const
+Cell::data	cell.h	/^    QVariant data(int role) const;$/;"	p	class:Cell	access:public	signature:(int role) const
+Cell::evalExpression	cell.cpp	/^QVariant Cell::evalExpression(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+Cell::evalExpression	cell.h	/^    QVariant evalExpression(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+Cell::evalFactor	cell.cpp	/^QVariant Cell::evalFactor(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+Cell::evalFactor	cell.h	/^    QVariant evalFactor(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+Cell::evalTerm	cell.cpp	/^QVariant Cell::evalTerm(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+Cell::evalTerm	cell.h	/^    QVariant evalTerm(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+Cell::formula	cell.cpp	/^QString Cell::formula() const$/;"	f	class:Cell	signature:() const
+Cell::formula	cell.h	/^    QString formula() const;$/;"	p	class:Cell	access:public	signature:() const
+Cell::setData	cell.cpp	/^void Cell::setData(int role, const QVariant &value)$/;"	f	class:Cell	signature:(int role, const QVariant &value)
+Cell::setData	cell.h	/^    void setData(int role, const QVariant &value);$/;"	p	class:Cell	access:public	signature:(int role, const QVariant &value)
+Cell::setDirty	cell.cpp	/^void Cell::setDirty()$/;"	f	class:Cell	signature:()
+Cell::setDirty	cell.h	/^    void setDirty();$/;"	p	class:Cell	access:public	signature:()
+Cell::setFormula	cell.cpp	/^void Cell::setFormula(const QString &formula)$/;"	f	class:Cell	signature:(const QString &formula)
+Cell::setFormula	cell.h	/^    void setFormula(const QString &formula);$/;"	p	class:Cell	access:public	signature:(const QString &formula)
+Cell::value	cell.cpp	/^QVariant Cell::value() const$/;"	f	class:Cell	signature:() const
+Cell::value	cell.h	/^    QVariant value() const;$/;"	p	class:Cell	access:private	signature:() const
+ColumnCount	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+DEFINES	Makefile	/^DEFINES       = -DQT_WEBKIT -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/share\/qt4\/mkspecs\/common\/g++.conf \\$/;"	m
+Dialog	ui_sortdialog.h	/^    class Dialog: public Ui_Dialog {};$/;"	c	namespace:Ui	inherits:Ui_Dialog
+FINDDIALOG_H	finddialog.h	2;"	d
+FindDialog	finddialog.cpp	/^FindDialog::FindDialog(QWidget *parent)$/;"	f	class:FindDialog	signature:(QWidget *parent)
+FindDialog	finddialog.h	/^		FindDialog(QWidget *parent = 0);$/;"	p	class:FindDialog	access:public	signature:(QWidget *parent = 0)
+FindDialog	finddialog.h	/^class FindDialog : public QDialog$/;"	c	inherits:QDialog
+FindDialog::FindDialog	finddialog.cpp	/^FindDialog::FindDialog(QWidget *parent)$/;"	f	class:FindDialog	signature:(QWidget *parent)
+FindDialog::FindDialog	finddialog.h	/^		FindDialog(QWidget *parent = 0);$/;"	p	class:FindDialog	access:public	signature:(QWidget *parent = 0)
+FindDialog::backwardcheckbox	finddialog.h	/^		QCheckBox *backwardcheckbox;$/;"	m	class:FindDialog	access:private
+FindDialog::casecheckbox	finddialog.h	/^		QCheckBox *casecheckbox;$/;"	m	class:FindDialog	access:private
+FindDialog::closebutton	finddialog.h	/^		QPushButton *closebutton;$/;"	m	class:FindDialog	access:private
+FindDialog::enableFindButton	finddialog.cpp	/^void FindDialog::enableFindButton(const QString &text)$/;"	f	class:FindDialog	signature:(const QString &text)
+FindDialog::enableFindButton	finddialog.h	/^		void enableFindButton(const QString &text);$/;"	p	class:FindDialog	access:private	signature:(const QString &text)
+FindDialog::findClicked	finddialog.cpp	/^void FindDialog::findClicked()$/;"	f	class:FindDialog	signature:()
+FindDialog::findClicked	finddialog.h	/^		void findClicked();$/;"	p	class:FindDialog	access:private	signature:()
+FindDialog::findNext	finddialog.h	/^		void findNext(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:FindDialog	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+FindDialog::findPrevious	finddialog.h	/^		void findPrevious(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:FindDialog	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+FindDialog::findbutton	finddialog.h	/^		QPushButton *findbutton;$/;"	m	class:FindDialog	access:private
+FindDialog::label	finddialog.h	/^		QLabel *label;$/;"	m	class:FindDialog	access:private
+FindDialog::lineedit	finddialog.h	/^		QLineEdit *lineedit;$/;"	m	class:FindDialog	access:private
+Form	ui_gotocelldialog.h	/^    class Form: public Ui_Form {};$/;"	c	namespace:Ui	inherits:Ui_Form
+GOTOCELLDIALOG_H	gotocelldialog.h	2;"	d
+GoToCellDialog	gotocelldialog.cpp	/^GoToCellDialog::GoToCellDialog(QWidget *parent)$/;"	f	class:GoToCellDialog	signature:(QWidget *parent)
+GoToCellDialog	gotocelldialog.h	/^		GoToCellDialog(QWidget *parent = 0);$/;"	p	class:GoToCellDialog	access:public	signature:(QWidget *parent = 0)
+GoToCellDialog	gotocelldialog.h	/^class GoToCellDialog : public QDialog, public Ui_Form$/;"	c	inherits:QDialog,Ui_Form
+GoToCellDialog::GoToCellDialog	gotocelldialog.cpp	/^GoToCellDialog::GoToCellDialog(QWidget *parent)$/;"	f	class:GoToCellDialog	signature:(QWidget *parent)
+GoToCellDialog::GoToCellDialog	gotocelldialog.h	/^		GoToCellDialog(QWidget *parent = 0);$/;"	p	class:GoToCellDialog	access:public	signature:(QWidget *parent = 0)
+GoToCellDialog::on_lineEdit_textChanged	gotocelldialog.cpp	/^void GoToCellDialog::on_lineEdit_textChanged()$/;"	f	class:GoToCellDialog	signature:()
+GoToCellDialog::on_lineEdit_textChanged	gotocelldialog.h	/^		void on_lineEdit_textChanged();$/;"	p	class:GoToCellDialog	access:private	signature:()
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/share\/qt4\/mkspecs\/linux-g++ -I. -I\/usr\/include\/qt4\/QtCore -I\/usr\/include\/qt4\/QtGui -I\/usr\/include\/qt4 -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+Invalid	cell.cpp	/^const QVariant Invalid;$/;"	v
+KeyCount	spreadsheet.h	/^    enum { KeyCount = 3 };$/;"	e	enum:SpreadsheetCompare::__anon3
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/lib\/i386-linux-gnu -lQtGui -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	mainwindow.h	2;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MagicNumber	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow()$/;"	f	class:MainWindow	signature:()
+MainWindow	mainwindow.h	/^		MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+MainWindow	mainwindow.h	/^class MainWindow: public QMainWindow$/;"	c	inherits:QMainWindow
+MainWindow::MainWindow	mainwindow.cpp	/^MainWindow::MainWindow()$/;"	f	class:MainWindow	signature:()
+MainWindow::MainWindow	mainwindow.h	/^		MainWindow();$/;"	p	class:MainWindow	access:public	signature:()
+MainWindow::MaxRecentFiles	mainwindow.h	/^		enum {MaxRecentFiles = 5};$/;"	e	enum:MainWindow::__anon1
+MainWindow::about	mainwindow.cpp	/^void MainWindow::about()$/;"	f	class:MainWindow	signature:()
+MainWindow::about	mainwindow.h	/^		void about();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::aboutAction	mainwindow.h	/^		QAction *aboutAction;$/;"	m	class:MainWindow	access:private
+MainWindow::aboutqtAction	mainwindow.h	/^		QAction *aboutqtAction;$/;"	m	class:MainWindow	access:private
+MainWindow::autoRecalculateAction	mainwindow.h	/^		QAction *autoRecalculateAction;$/;"	m	class:MainWindow	access:private
+MainWindow::closeEvent	mainwindow.cpp	/^void MainWindow::closeEvent()$/;"	f	class:MainWindow	signature:()
+MainWindow::closeEvent	mainwindow.h	/^		void closeEvent(QCloseEvent *event);$/;"	p	class:MainWindow	access:protected	signature:(QCloseEvent *event)
+MainWindow::copyAction	mainwindow.h	/^		QAction *copyAction;$/;"	m	class:MainWindow	access:private
+MainWindow::createActions	mainwindow.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow	signature:()
+MainWindow::createActions	mainwindow.h	/^		void createActions();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::createContextMenu	mainwindow.cpp	/^void MainWindow::createContextMenu()$/;"	f	class:MainWindow	signature:()
+MainWindow::createContextMenu	mainwindow.h	/^		void createContextMenu();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::createMenu	mainwindow.cpp	/^void MainWindow::createMenu()$/;"	f	class:MainWindow	signature:()
+MainWindow::createMenu	mainwindow.h	/^		void createMenu();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::createStatusBar	mainwindow.cpp	/^void MainWindow::createStatusBar()$/;"	f	class:MainWindow	signature:()
+MainWindow::createStatusBar	mainwindow.h	/^		void createStatusBar();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::createToolBars	mainwindow.cpp	/^void MainWindow::createToolBars()$/;"	f	class:MainWindow	signature:()
+MainWindow::createToolBars	mainwindow.h	/^		void createToolBars();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::curFile	mainwindow.h	/^		QString curFile;$/;"	m	class:MainWindow	access:private
+MainWindow::cutAction	mainwindow.h	/^		QAction *cutAction;$/;"	m	class:MainWindow	access:private
+MainWindow::deleteAction	mainwindow.h	/^		QAction *deleteAction;$/;"	m	class:MainWindow	access:private
+MainWindow::editMenu	mainwindow.h	/^		QMenu *editMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::editToolBar	mainwindow.h	/^		QToolBar *editToolBar;$/;"	m	class:MainWindow	access:private
+MainWindow::exitAction	mainwindow.h	/^		QAction *exitAction;$/;"	m	class:MainWindow	access:private
+MainWindow::fileMenu	mainwindow.h	/^		QMenu *fileMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::fileToolBar	mainwindow.h	/^		QToolBar *fileToolBar;$/;"	m	class:MainWindow	access:private
+MainWindow::find	mainwindow.cpp	/^void MainWindow::find()$/;"	f	class:MainWindow	signature:()
+MainWindow::find	mainwindow.h	/^		void find();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::findAction	mainwindow.h	/^		QAction *findAction;$/;"	m	class:MainWindow	access:private
+MainWindow::findDialog	mainwindow.h	/^		FindDialog *findDialog;$/;"	m	class:MainWindow	access:private
+MainWindow::formulaLabel	mainwindow.h	/^		QLabel *formulaLabel;$/;"	m	class:MainWindow	access:private
+MainWindow::goToCell	mainwindow.cpp	/^void MainWindow::goToCell()$/;"	f	class:MainWindow	signature:()
+MainWindow::goToCell	mainwindow.h	/^		void goToCell();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::goToCellAction	mainwindow.h	/^		QAction *goToCellAction;$/;"	m	class:MainWindow	access:private
+MainWindow::helpMenu	mainwindow.h	/^		QMenu *helpMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::loadFile	mainwindow.cpp	/^bool MainWindow::loadFile(const QString &fileName)$/;"	f	class:MainWindow	signature:(const QString &fileName)
+MainWindow::loadFile	mainwindow.h	/^		bool loadFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+MainWindow::locationLabel	mainwindow.h	/^		QLabel *locationLabel;$/;"	m	class:MainWindow	access:private
+MainWindow::newAction	mainwindow.h	/^		QAction *newAction;$/;"	m	class:MainWindow	access:private
+MainWindow::newFile	mainwindow.cpp	/^void MainWindow::newFile()$/;"	f	class:MainWindow	signature:()
+MainWindow::newFile	mainwindow.h	/^		void newFile();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::okToContinue	mainwindow.cpp	/^bool MainWindow::okToContinue()$/;"	f	class:MainWindow	signature:()
+MainWindow::okToContinue	mainwindow.h	/^		bool okToContinue();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::open	mainwindow.cpp	/^void MainWindow::open()$/;"	f	class:MainWindow	signature:()
+MainWindow::open	mainwindow.h	/^		void open();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::openAction	mainwindow.h	/^		QAction *openAction;$/;"	m	class:MainWindow	access:private
+MainWindow::openRecentFile	mainwindow.cpp	/^void MainWindow::openRecentFile()$/;"	f	class:MainWindow	signature:()
+MainWindow::openRecentFile	mainwindow.h	/^		void openRecentFile();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::optionsMenu	mainwindow.h	/^		QMenu *optionsMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::pasteAction	mainwindow.h	/^		QAction *pasteAction;$/;"	m	class:MainWindow	access:private
+MainWindow::readSettings	mainwindow.cpp	/^void MainWindow::readSettings()$/;"	f	class:MainWindow	signature:()
+MainWindow::recalculateAction	mainwindow.h	/^		QAction *recalculateAction;$/;"	m	class:MainWindow	access:private
+MainWindow::recenFileActions	mainwindow.h	/^		QAction *recenFileActions[MaxRecentFiles];$/;"	m	class:MainWindow	access:private
+MainWindow::recenFiles	mainwindow.h	/^		QStringList recenFiles;$/;"	m	class:MainWindow	access:private
+MainWindow::redSettings	mainwindow.h	/^		void redSettings();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::save	mainwindow.cpp	/^void MainWindow::save()$/;"	f	class:MainWindow	signature:()
+MainWindow::save	mainwindow.h	/^		bool save();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::saveAction	mainwindow.h	/^		QAction *saveAction;$/;"	m	class:MainWindow	access:private
+MainWindow::saveAsAction	mainwindow.h	/^		QAction *saveAsAction;$/;"	m	class:MainWindow	access:private
+MainWindow::saveFile	mainwindow.cpp	/^bool MainWindow::saveFile(const Qstring &fileName)$/;"	f	class:MainWindow	signature:(const Qstring &fileName)
+MainWindow::saveFile	mainwindow.h	/^		bool saveFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+MainWindow::saveas	mainwindow.cpp	/^void MainWindow::saveas()$/;"	f	class:MainWindow	signature:()
+MainWindow::saveas	mainwindow.h	/^		bool saveas();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::selectAllAction	mainwindow.h	/^		QAction *selectAllAction;$/;"	m	class:MainWindow	access:private
+MainWindow::selectColumnAction	mainwindow.h	/^		QAction *selectColumnAction;$/;"	m	class:MainWindow	access:private
+MainWindow::selectRowAction	mainwindow.h	/^		QAction *selectRowAction;$/;"	m	class:MainWindow	access:private
+MainWindow::selectSubMenu	mainwindow.h	/^		QMenu *selectSubMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::separatorAction	mainwindow.h	/^		QAction *separatorAction;$/;"	m	class:MainWindow	access:private
+MainWindow::setCurrentFile	mainwindow.cpp	/^void MainWindow::setCurrentFile(const QString &fileName)$/;"	f	class:MainWindow	signature:(const QString &fileName)
+MainWindow::setCurrentFile	mainwindow.h	/^		void setCurrentFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+MainWindow::showGridAction	mainwindow.h	/^		QAction *showGridAction;$/;"	m	class:MainWindow	access:private
+MainWindow::sort	mainwindow.cpp	/^void MainWindow::sort()$/;"	f	class:MainWindow	signature:()
+MainWindow::sort	mainwindow.h	/^		void sort();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::sortAction	mainwindow.h	/^		QAction *sortAction;$/;"	m	class:MainWindow	access:private
+MainWindow::spreadsheet	mainwindow.h	/^		Spreadsheet *spreadsheet;$/;"	m	class:MainWindow	access:private
+MainWindow::spreadsheetModified	mainwindow.cpp	/^void MainWindow::spreadsheetModified()$/;"	f	class:MainWindow	signature:()
+MainWindow::spreadsheetModified	mainwindow.h	/^		void spreadsheetModified();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::strippedName	mainwindow.cpp	/^QString MainWindow::strippedName(const QString &fullFileName)$/;"	f	class:MainWindow	signature:(const QString &fullFileName)
+MainWindow::strippedName	mainwindow.h	/^		QString strippedName(const QString &fullFileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fullFileName)
+MainWindow::toolsMenu	mainwindow.h	/^		QMenu *toolsMenu;$/;"	m	class:MainWindow	access:private
+MainWindow::updataRecenFileActions	mainwindow.cpp	/^void MainWindow::updataRecenFileActions()$/;"	f	class:MainWindow	signature:()
+MainWindow::updateRecenFileActions	mainwindow.h	/^		void updateRecenFileActions();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::updateStatusBar	mainwindow.h	/^		void updateStatusBar();$/;"	p	class:MainWindow	access:private	signature:()
+MainWindow::writeSettings	mainwindow.cpp	/^void MainWindow::writeSettings()$/;"	f	class:MainWindow	signature:()
+MainWindow::writeSettings	mainwindow.h	/^		void writeSettings();$/;"	p	class:MainWindow	access:private	signature:()
+MaxRecentFiles	mainwindow.h	/^		enum {MaxRecentFiles = 5};$/;"	e	enum:MainWindow::__anon1
+OBJECTS	Makefile	/^OBJECTS       = cell.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = spreadsheet$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RowCount	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+SED	Makefile	/^SED           = sed$/;"	m
+SORTDIALOG_H	sortdialog.h	2;"	d
+SOURCES	Makefile	/^SOURCES       = cell.cpp \\$/;"	m
+SPREADSHEET_H	spreadsheet.h	2;"	d
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SortDialog	sortdialog.cpp	/^SortDialog::SortDialog(QWidget *parent)$/;"	f	class:SortDialog	signature:(QWidget *parent)
+SortDialog	sortdialog.h	/^		SortDialog(QWidget *parent = 0);$/;"	p	class:SortDialog	access:public	signature:(QWidget *parent = 0)
+SortDialog	sortdialog.h	/^class SortDialog : public QDialog, public Ui_Dialog$/;"	c	inherits:QDialog,Ui_Dialog
+SortDialog::SortDialog	sortdialog.cpp	/^SortDialog::SortDialog(QWidget *parent)$/;"	f	class:SortDialog	signature:(QWidget *parent)
+SortDialog::SortDialog	sortdialog.h	/^		SortDialog(QWidget *parent = 0);$/;"	p	class:SortDialog	access:public	signature:(QWidget *parent = 0)
+SortDialog::setColumnRange	sortdialog.cpp	/^void SortDialog::setColumnRange(QChar first, QChar last)$/;"	f	class:SortDialog	signature:(QChar first, QChar last)
+SortDialog::setColumnRange	sortdialog.h	/^		void setColumnRange(QChar first, QChar last);$/;"	p	class:SortDialog	access:public	signature:(QChar first, QChar last)
+Spreadsheet	spreadsheet.cpp	/^Spreadsheet::Spreadsheet(QWidget *parent)$/;"	f	class:Spreadsheet	signature:(QWidget *parent)
+Spreadsheet	spreadsheet.h	/^    Spreadsheet(QWidget *parent = 0);$/;"	p	class:Spreadsheet	access:public	signature:(QWidget *parent = 0)
+Spreadsheet	spreadsheet.h	/^class Spreadsheet : public QTableWidget$/;"	c	inherits:QTableWidget
+Spreadsheet::ColumnCount	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+Spreadsheet::MagicNumber	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+Spreadsheet::RowCount	spreadsheet.h	/^    enum { MagicNumber = 0x7F51C883, RowCount = 999, ColumnCount = 26 };$/;"	e	enum:Spreadsheet::__anon2
+Spreadsheet::Spreadsheet	spreadsheet.cpp	/^Spreadsheet::Spreadsheet(QWidget *parent)$/;"	f	class:Spreadsheet	signature:(QWidget *parent)
+Spreadsheet::Spreadsheet	spreadsheet.h	/^    Spreadsheet(QWidget *parent = 0);$/;"	p	class:Spreadsheet	access:public	signature:(QWidget *parent = 0)
+Spreadsheet::autoRecalc	spreadsheet.h	/^    bool autoRecalc;$/;"	m	class:Spreadsheet	access:private
+Spreadsheet::autoRecalculate	spreadsheet.h	/^    bool autoRecalculate() const { return autoRecalc; }$/;"	f	class:Spreadsheet	access:public	signature:() const
+Spreadsheet::cell	spreadsheet.cpp	/^Cell *Spreadsheet::cell(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+Spreadsheet::cell	spreadsheet.h	/^    Cell *cell(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+Spreadsheet::clear	spreadsheet.cpp	/^void Spreadsheet::clear()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::clear	spreadsheet.h	/^    void clear();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::copy	spreadsheet.cpp	/^void Spreadsheet::copy()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::copy	spreadsheet.h	/^    void copy();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::currentFormula	spreadsheet.cpp	/^QString Spreadsheet::currentFormula() const$/;"	f	class:Spreadsheet	signature:() const
+Spreadsheet::currentFormula	spreadsheet.h	/^    QString currentFormula() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+Spreadsheet::currentLocation	spreadsheet.cpp	/^QString Spreadsheet::currentLocation() const$/;"	f	class:Spreadsheet	signature:() const
+Spreadsheet::currentLocation	spreadsheet.h	/^    QString currentLocation() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+Spreadsheet::cut	spreadsheet.cpp	/^void Spreadsheet::cut()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::cut	spreadsheet.h	/^    void cut();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::del	spreadsheet.cpp	/^void Spreadsheet::del()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::del	spreadsheet.h	/^    void del();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::findNext	spreadsheet.cpp	/^void Spreadsheet::findNext(const QString &str, Qt::CaseSensitivity cs)$/;"	f	class:Spreadsheet	signature:(const QString &str, Qt::CaseSensitivity cs)
+Spreadsheet::findNext	spreadsheet.h	/^    void findNext(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+Spreadsheet::findPrevious	spreadsheet.cpp	/^void Spreadsheet::findPrevious(const QString &str,$/;"	f	class:Spreadsheet	signature:(const QString &str, Qt::CaseSensitivity cs)
+Spreadsheet::findPrevious	spreadsheet.h	/^    void findPrevious(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+Spreadsheet::formula	spreadsheet.cpp	/^QString Spreadsheet::formula(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+Spreadsheet::formula	spreadsheet.h	/^    QString formula(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+Spreadsheet::modified	spreadsheet.h	/^    void modified();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::paste	spreadsheet.cpp	/^void Spreadsheet::paste()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::paste	spreadsheet.h	/^    void paste();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::readFile	spreadsheet.cpp	/^bool Spreadsheet::readFile(const QString &fileName)$/;"	f	class:Spreadsheet	signature:(const QString &fileName)
+Spreadsheet::readFile	spreadsheet.h	/^    bool readFile(const QString &fileName);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &fileName)
+Spreadsheet::recalculate	spreadsheet.cpp	/^void Spreadsheet::recalculate()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::recalculate	spreadsheet.h	/^    void recalculate();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::selectCurrentColumn	spreadsheet.cpp	/^void Spreadsheet::selectCurrentColumn()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::selectCurrentColumn	spreadsheet.h	/^    void selectCurrentColumn();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::selectCurrentRow	spreadsheet.cpp	/^void Spreadsheet::selectCurrentRow()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::selectCurrentRow	spreadsheet.h	/^    void selectCurrentRow();$/;"	p	class:Spreadsheet	access:public	signature:()
+Spreadsheet::selectedRange	spreadsheet.cpp	/^QTableWidgetSelectionRange Spreadsheet::selectedRange() const$/;"	f	class:Spreadsheet	signature:() const
+Spreadsheet::selectedRange	spreadsheet.h	/^    QTableWidgetSelectionRange selectedRange() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+Spreadsheet::setAutoRecalculate	spreadsheet.cpp	/^void Spreadsheet::setAutoRecalculate(bool recalc)$/;"	f	class:Spreadsheet	signature:(bool recalc)
+Spreadsheet::setAutoRecalculate	spreadsheet.h	/^    void setAutoRecalculate(bool recalc);$/;"	p	class:Spreadsheet	access:public	signature:(bool recalc)
+Spreadsheet::setFormula	spreadsheet.cpp	/^void Spreadsheet::setFormula(int row, int column,$/;"	f	class:Spreadsheet	signature:(int row, int column, const QString &formula)
+Spreadsheet::setFormula	spreadsheet.h	/^    void setFormula(int row, int column, const QString &formula);$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column, const QString &formula)
+Spreadsheet::somethingChanged	spreadsheet.cpp	/^void Spreadsheet::somethingChanged()$/;"	f	class:Spreadsheet	signature:()
+Spreadsheet::somethingChanged	spreadsheet.h	/^    void somethingChanged();$/;"	p	class:Spreadsheet	access:private	signature:()
+Spreadsheet::sort	spreadsheet.cpp	/^void Spreadsheet::sort(const SpreadsheetCompare &compare)$/;"	f	class:Spreadsheet	signature:(const SpreadsheetCompare &compare)
+Spreadsheet::sort	spreadsheet.h	/^    void sort(const SpreadsheetCompare &compare);$/;"	p	class:Spreadsheet	access:public	signature:(const SpreadsheetCompare &compare)
+Spreadsheet::text	spreadsheet.cpp	/^QString Spreadsheet::text(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+Spreadsheet::text	spreadsheet.h	/^    QString text(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+Spreadsheet::writeFile	spreadsheet.cpp	/^bool Spreadsheet::writeFile(const QString &fileName)$/;"	f	class:Spreadsheet	signature:(const QString &fileName)
+Spreadsheet::writeFile	spreadsheet.h	/^    bool writeFile(const QString &fileName);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &fileName)
+SpreadsheetCompare	spreadsheet.h	/^class SpreadsheetCompare$/;"	c
+SpreadsheetCompare::KeyCount	spreadsheet.h	/^    enum { KeyCount = 3 };$/;"	e	enum:SpreadsheetCompare::__anon3
+SpreadsheetCompare::ascending	spreadsheet.h	/^    bool ascending[KeyCount];$/;"	m	class:SpreadsheetCompare	access:public
+SpreadsheetCompare::keys	spreadsheet.h	/^    int keys[KeyCount];$/;"	m	class:SpreadsheetCompare	access:public
+SpreadsheetCompare::operator ()	spreadsheet.cpp	/^bool SpreadsheetCompare::operator()(const QStringList &row1,$/;"	f	class:SpreadsheetCompare	signature:(const QStringList &row1, const QStringList &row2) const
+SpreadsheetCompare::operator ()	spreadsheet.h	/^    bool operator()(const QStringList &row1,$/;"	p	class:SpreadsheetCompare	access:public	signature:(const QStringList &row1, const QStringList &row2) const
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = spreadsheet$/;"	m
+UI_GOTOCELLDIALOG_H	ui_gotocelldialog.h	11;"	d
+UI_SORTDIALOG_H	ui_sortdialog.h	11;"	d
+Ui	ui_gotocelldialog.h	/^namespace Ui {$/;"	n
+Ui	ui_sortdialog.h	/^namespace Ui {$/;"	n
+Ui::Dialog	ui_sortdialog.h	/^    class Dialog: public Ui_Dialog {};$/;"	c	namespace:Ui	inherits:Ui_Dialog
+Ui::Form	ui_gotocelldialog.h	/^    class Form: public Ui_Form {};$/;"	c	namespace:Ui	inherits:Ui_Form
+Ui_Dialog	ui_sortdialog.h	/^class Ui_Dialog$/;"	c
+Ui_Dialog::cancelButton	ui_sortdialog.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::gridLayout	ui_sortdialog.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::gridLayout_2	ui_sortdialog.h	/^    QGridLayout *gridLayout_2;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::gridLayout_3	ui_sortdialog.h	/^    QGridLayout *gridLayout_3;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::gridLayout_4	ui_sortdialog.h	/^    QGridLayout *gridLayout_4;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::horizontalSpacer	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::horizontalSpacer_2	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer_2;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::horizontalSpacer_3	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer_3;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label	ui_sortdialog.h	/^    QLabel *label;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label_2	ui_sortdialog.h	/^    QLabel *label_2;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label_3	ui_sortdialog.h	/^    QLabel *label_3;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label_4	ui_sortdialog.h	/^    QLabel *label_4;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label_5	ui_sortdialog.h	/^    QLabel *label_5;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::label_6	ui_sortdialog.h	/^    QLabel *label_6;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::moreButton	ui_sortdialog.h	/^    QPushButton *moreButton;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::okButton	ui_sortdialog.h	/^    QPushButton *okButton;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::primarycolumncombo	ui_sortdialog.h	/^    QComboBox *primarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::primarygroupbox	ui_sortdialog.h	/^    QGroupBox *primarygroupbox;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::primaryordercombo	ui_sortdialog.h	/^    QComboBox *primaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::retranslateUi	ui_sortdialog.h	/^    void retranslateUi(QDialog *Dialog)$/;"	f	class:Ui_Dialog	access:public	signature:(QDialog *Dialog)
+Ui_Dialog::secondarygroupbox	ui_sortdialog.h	/^    QGroupBox *secondarygroupbox;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::secondaryordercombo	ui_sortdialog.h	/^    QComboBox *secondaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::sencondarycolumncombo	ui_sortdialog.h	/^    QComboBox *sencondarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::setupUi	ui_sortdialog.h	/^    void setupUi(QDialog *Dialog)$/;"	f	class:Ui_Dialog	access:public	signature:(QDialog *Dialog)
+Ui_Dialog::tertialygroupbox	ui_sortdialog.h	/^    QGroupBox *tertialygroupbox;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::tertiarycolumncombo	ui_sortdialog.h	/^    QComboBox *tertiarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::tertiaryordercombo	ui_sortdialog.h	/^    QComboBox *tertiaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::verticalLayout	ui_sortdialog.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::verticalSpacer	ui_sortdialog.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_Dialog	access:public
+Ui_Dialog::verticalSpacer_2	ui_sortdialog.h	/^    QSpacerItem *verticalSpacer_2;$/;"	m	class:Ui_Dialog	access:public
+Ui_Form	ui_gotocelldialog.h	/^class Ui_Form$/;"	c
+Ui_Form::cancelButton	ui_gotocelldialog.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_Form	access:public
+Ui_Form::horizontalLayout	ui_gotocelldialog.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_Form	access:public
+Ui_Form::horizontalLayout_2	ui_gotocelldialog.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_Form	access:public
+Ui_Form::horizontalSpacer	ui_gotocelldialog.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_Form	access:public
+Ui_Form::label	ui_gotocelldialog.h	/^    QLabel *label;$/;"	m	class:Ui_Form	access:public
+Ui_Form::lineEdit	ui_gotocelldialog.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_Form	access:public
+Ui_Form::okButton	ui_gotocelldialog.h	/^    QPushButton *okButton;$/;"	m	class:Ui_Form	access:public
+Ui_Form::retranslateUi	ui_gotocelldialog.h	/^    void retranslateUi(QWidget *Form)$/;"	f	class:Ui_Form	access:public	signature:(QWidget *Form)
+Ui_Form::setupUi	ui_gotocelldialog.h	/^    void setupUi(QWidget *Form)$/;"	f	class:Ui_Form	access:public	signature:(QWidget *Form)
+Ui_Form::verticalLayout	ui_gotocelldialog.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_Form	access:public
+about	mainwindow.cpp	/^void MainWindow::about()$/;"	f	class:MainWindow	signature:()
+about	mainwindow.h	/^		void about();$/;"	p	class:MainWindow	access:private	signature:()
+aboutAction	mainwindow.h	/^		QAction *aboutAction;$/;"	m	class:MainWindow	access:private
+aboutqtAction	mainwindow.h	/^		QAction *aboutqtAction;$/;"	m	class:MainWindow	access:private
+ascending	spreadsheet.h	/^    bool ascending[KeyCount];$/;"	m	class:SpreadsheetCompare	access:public
+autoRecalc	spreadsheet.h	/^    bool autoRecalc;$/;"	m	class:Spreadsheet	access:private
+autoRecalculate	spreadsheet.h	/^    bool autoRecalculate() const { return autoRecalc; }$/;"	f	class:Spreadsheet	access:public	signature:() const
+autoRecalculateAction	mainwindow.h	/^		QAction *autoRecalculateAction;$/;"	m	class:MainWindow	access:private
+backwardcheckbox	finddialog.h	/^		QCheckBox *backwardcheckbox;$/;"	m	class:FindDialog	access:private
+cacheIsDirty	cell.h	/^    mutable bool cacheIsDirty;$/;"	m	class:Cell	access:private
+cachedValue	cell.h	/^    mutable QVariant cachedValue;$/;"	m	class:Cell	access:private
+cancelButton	ui_gotocelldialog.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_Form	access:public
+cancelButton	ui_sortdialog.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_Dialog	access:public
+casecheckbox	finddialog.h	/^		QCheckBox *casecheckbox;$/;"	m	class:FindDialog	access:private
+cell	spreadsheet.cpp	/^Cell *Spreadsheet::cell(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+cell	spreadsheet.h	/^    Cell *cell(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+clear	spreadsheet.cpp	/^void Spreadsheet::clear()$/;"	f	class:Spreadsheet	signature:()
+clear	spreadsheet.h	/^    void clear();$/;"	p	class:Spreadsheet	access:public	signature:()
+clone	cell.cpp	/^QTableWidgetItem *Cell::clone() const$/;"	f	class:Cell	signature:() const
+clone	cell.h	/^    QTableWidgetItem *clone() const;$/;"	p	class:Cell	access:public	signature:() const
+closeEvent	mainwindow.cpp	/^void MainWindow::closeEvent()$/;"	f	class:MainWindow	signature:()
+closeEvent	mainwindow.h	/^		void closeEvent(QCloseEvent *event);$/;"	p	class:MainWindow	access:protected	signature:(QCloseEvent *event)
+closebutton	finddialog.h	/^		QPushButton *closebutton;$/;"	m	class:FindDialog	access:private
+copy	spreadsheet.cpp	/^void Spreadsheet::copy()$/;"	f	class:Spreadsheet	signature:()
+copy	spreadsheet.h	/^    void copy();$/;"	p	class:Spreadsheet	access:public	signature:()
+copyAction	mainwindow.h	/^		QAction *copyAction;$/;"	m	class:MainWindow	access:private
+createActions	mainwindow.cpp	/^void MainWindow::createActions()$/;"	f	class:MainWindow	signature:()
+createActions	mainwindow.h	/^		void createActions();$/;"	p	class:MainWindow	access:private	signature:()
+createContextMenu	mainwindow.cpp	/^void MainWindow::createContextMenu()$/;"	f	class:MainWindow	signature:()
+createContextMenu	mainwindow.h	/^		void createContextMenu();$/;"	p	class:MainWindow	access:private	signature:()
+createMenu	mainwindow.cpp	/^void MainWindow::createMenu()$/;"	f	class:MainWindow	signature:()
+createMenu	mainwindow.h	/^		void createMenu();$/;"	p	class:MainWindow	access:private	signature:()
+createStatusBar	mainwindow.cpp	/^void MainWindow::createStatusBar()$/;"	f	class:MainWindow	signature:()
+createStatusBar	mainwindow.h	/^		void createStatusBar();$/;"	p	class:MainWindow	access:private	signature:()
+createToolBars	mainwindow.cpp	/^void MainWindow::createToolBars()$/;"	f	class:MainWindow	signature:()
+createToolBars	mainwindow.h	/^		void createToolBars();$/;"	p	class:MainWindow	access:private	signature:()
+curFile	mainwindow.h	/^		QString curFile;$/;"	m	class:MainWindow	access:private
+currentFormula	spreadsheet.cpp	/^QString Spreadsheet::currentFormula() const$/;"	f	class:Spreadsheet	signature:() const
+currentFormula	spreadsheet.h	/^    QString currentFormula() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+currentLocation	spreadsheet.cpp	/^QString Spreadsheet::currentLocation() const$/;"	f	class:Spreadsheet	signature:() const
+currentLocation	spreadsheet.h	/^    QString currentLocation() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+cut	spreadsheet.cpp	/^void Spreadsheet::cut()$/;"	f	class:Spreadsheet	signature:()
+cut	spreadsheet.h	/^    void cut();$/;"	p	class:Spreadsheet	access:public	signature:()
+cutAction	mainwindow.h	/^		QAction *cutAction;$/;"	m	class:MainWindow	access:private
+data	cell.cpp	/^QVariant Cell::data(int role) const$/;"	f	class:Cell	signature:(int role) const
+data	cell.h	/^    QVariant data(int role) const;$/;"	p	class:Cell	access:public	signature:(int role) const
+del	spreadsheet.cpp	/^void Spreadsheet::del()$/;"	f	class:Spreadsheet	signature:()
+del	spreadsheet.h	/^    void del();$/;"	p	class:Spreadsheet	access:public	signature:()
+deleteAction	mainwindow.h	/^		QAction *deleteAction;$/;"	m	class:MainWindow	access:private
+editMenu	mainwindow.h	/^		QMenu *editMenu;$/;"	m	class:MainWindow	access:private
+editToolBar	mainwindow.h	/^		QToolBar *editToolBar;$/;"	m	class:MainWindow	access:private
+enableFindButton	finddialog.cpp	/^void FindDialog::enableFindButton(const QString &text)$/;"	f	class:FindDialog	signature:(const QString &text)
+enableFindButton	finddialog.h	/^		void enableFindButton(const QString &text);$/;"	p	class:FindDialog	access:private	signature:(const QString &text)
+evalExpression	cell.cpp	/^QVariant Cell::evalExpression(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+evalExpression	cell.h	/^    QVariant evalExpression(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+evalFactor	cell.cpp	/^QVariant Cell::evalFactor(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+evalFactor	cell.h	/^    QVariant evalFactor(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+evalTerm	cell.cpp	/^QVariant Cell::evalTerm(const QString &str, int &pos) const$/;"	f	class:Cell	signature:(const QString &str, int &pos) const
+evalTerm	cell.h	/^    QVariant evalTerm(const QString &str, int &pos) const;$/;"	p	class:Cell	access:private	signature:(const QString &str, int &pos) const
+exitAction	mainwindow.h	/^		QAction *exitAction;$/;"	m	class:MainWindow	access:private
+fileMenu	mainwindow.h	/^		QMenu *fileMenu;$/;"	m	class:MainWindow	access:private
+fileToolBar	mainwindow.h	/^		QToolBar *fileToolBar;$/;"	m	class:MainWindow	access:private
+find	mainwindow.cpp	/^void MainWindow::find()$/;"	f	class:MainWindow	signature:()
+find	mainwindow.h	/^		void find();$/;"	p	class:MainWindow	access:private	signature:()
+findAction	mainwindow.h	/^		QAction *findAction;$/;"	m	class:MainWindow	access:private
+findClicked	finddialog.cpp	/^void FindDialog::findClicked()$/;"	f	class:FindDialog	signature:()
+findClicked	finddialog.h	/^		void findClicked();$/;"	p	class:FindDialog	access:private	signature:()
+findDialog	mainwindow.h	/^		FindDialog *findDialog;$/;"	m	class:MainWindow	access:private
+findNext	finddialog.h	/^		void findNext(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:FindDialog	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+findNext	spreadsheet.cpp	/^void Spreadsheet::findNext(const QString &str, Qt::CaseSensitivity cs)$/;"	f	class:Spreadsheet	signature:(const QString &str, Qt::CaseSensitivity cs)
+findNext	spreadsheet.h	/^    void findNext(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+findPrevious	finddialog.h	/^		void findPrevious(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:FindDialog	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+findPrevious	spreadsheet.cpp	/^void Spreadsheet::findPrevious(const QString &str,$/;"	f	class:Spreadsheet	signature:(const QString &str, Qt::CaseSensitivity cs)
+findPrevious	spreadsheet.h	/^    void findPrevious(const QString &str, Qt::CaseSensitivity cs);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &str, Qt::CaseSensitivity cs)
+findbutton	finddialog.h	/^		QPushButton *findbutton;$/;"	m	class:FindDialog	access:private
+formula	cell.cpp	/^QString Cell::formula() const$/;"	f	class:Cell	signature:() const
+formula	cell.h	/^    QString formula() const;$/;"	p	class:Cell	access:public	signature:() const
+formula	spreadsheet.cpp	/^QString Spreadsheet::formula(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+formula	spreadsheet.h	/^    QString formula(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+formulaLabel	mainwindow.h	/^		QLabel *formulaLabel;$/;"	m	class:MainWindow	access:private
+goToCell	mainwindow.cpp	/^void MainWindow::goToCell()$/;"	f	class:MainWindow	signature:()
+goToCell	mainwindow.h	/^		void goToCell();$/;"	p	class:MainWindow	access:private	signature:()
+goToCellAction	mainwindow.h	/^		QAction *goToCellAction;$/;"	m	class:MainWindow	access:private
+gridLayout	ui_sortdialog.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_Dialog	access:public
+gridLayout_2	ui_sortdialog.h	/^    QGridLayout *gridLayout_2;$/;"	m	class:Ui_Dialog	access:public
+gridLayout_3	ui_sortdialog.h	/^    QGridLayout *gridLayout_3;$/;"	m	class:Ui_Dialog	access:public
+gridLayout_4	ui_sortdialog.h	/^    QGridLayout *gridLayout_4;$/;"	m	class:Ui_Dialog	access:public
+helpMenu	mainwindow.h	/^		QMenu *helpMenu;$/;"	m	class:MainWindow	access:private
+horizontalLayout	ui_gotocelldialog.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_Form	access:public
+horizontalLayout_2	ui_gotocelldialog.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_Form	access:public
+horizontalSpacer	ui_gotocelldialog.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_Form	access:public
+horizontalSpacer	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_Dialog	access:public
+horizontalSpacer_2	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer_2;$/;"	m	class:Ui_Dialog	access:public
+horizontalSpacer_3	ui_sortdialog.h	/^    QSpacerItem *horizontalSpacer_3;$/;"	m	class:Ui_Dialog	access:public
+keys	spreadsheet.h	/^    int keys[KeyCount];$/;"	m	class:SpreadsheetCompare	access:public
+label	finddialog.h	/^		QLabel *label;$/;"	m	class:FindDialog	access:private
+label	ui_gotocelldialog.h	/^    QLabel *label;$/;"	m	class:Ui_Form	access:public
+label	ui_sortdialog.h	/^    QLabel *label;$/;"	m	class:Ui_Dialog	access:public
+label_2	ui_sortdialog.h	/^    QLabel *label_2;$/;"	m	class:Ui_Dialog	access:public
+label_3	ui_sortdialog.h	/^    QLabel *label_3;$/;"	m	class:Ui_Dialog	access:public
+label_4	ui_sortdialog.h	/^    QLabel *label_4;$/;"	m	class:Ui_Dialog	access:public
+label_5	ui_sortdialog.h	/^    QLabel *label_5;$/;"	m	class:Ui_Dialog	access:public
+label_6	ui_sortdialog.h	/^    QLabel *label_6;$/;"	m	class:Ui_Dialog	access:public
+lineEdit	ui_gotocelldialog.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_Form	access:public
+lineedit	finddialog.h	/^		QLineEdit *lineedit;$/;"	m	class:FindDialog	access:private
+loadFile	mainwindow.cpp	/^bool MainWindow::loadFile(const QString &fileName)$/;"	f	class:MainWindow	signature:(const QString &fileName)
+loadFile	mainwindow.h	/^		bool loadFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+locationLabel	mainwindow.h	/^		QLabel *locationLabel;$/;"	m	class:MainWindow	access:private
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+modified	spreadsheet.h	/^    void modified();$/;"	p	class:Spreadsheet	access:public	signature:()
+moreButton	ui_sortdialog.h	/^    QPushButton *moreButton;$/;"	m	class:Ui_Dialog	access:public
+newAction	mainwindow.h	/^		QAction *newAction;$/;"	m	class:MainWindow	access:private
+newFile	mainwindow.cpp	/^void MainWindow::newFile()$/;"	f	class:MainWindow	signature:()
+newFile	mainwindow.h	/^		void newFile();$/;"	p	class:MainWindow	access:private	signature:()
+okButton	ui_gotocelldialog.h	/^    QPushButton *okButton;$/;"	m	class:Ui_Form	access:public
+okButton	ui_sortdialog.h	/^    QPushButton *okButton;$/;"	m	class:Ui_Dialog	access:public
+okToContinue	mainwindow.cpp	/^bool MainWindow::okToContinue()$/;"	f	class:MainWindow	signature:()
+okToContinue	mainwindow.h	/^		bool okToContinue();$/;"	p	class:MainWindow	access:private	signature:()
+on_lineEdit_textChanged	gotocelldialog.cpp	/^void GoToCellDialog::on_lineEdit_textChanged()$/;"	f	class:GoToCellDialog	signature:()
+on_lineEdit_textChanged	gotocelldialog.h	/^		void on_lineEdit_textChanged();$/;"	p	class:GoToCellDialog	access:private	signature:()
+open	mainwindow.cpp	/^void MainWindow::open()$/;"	f	class:MainWindow	signature:()
+open	mainwindow.h	/^		void open();$/;"	p	class:MainWindow	access:private	signature:()
+openAction	mainwindow.h	/^		QAction *openAction;$/;"	m	class:MainWindow	access:private
+openRecentFile	mainwindow.cpp	/^void MainWindow::openRecentFile()$/;"	f	class:MainWindow	signature:()
+openRecentFile	mainwindow.h	/^		void openRecentFile();$/;"	p	class:MainWindow	access:private	signature:()
+operator ()	spreadsheet.cpp	/^bool SpreadsheetCompare::operator()(const QStringList &row1,$/;"	f	class:SpreadsheetCompare	signature:(const QStringList &row1, const QStringList &row2) const
+operator ()	spreadsheet.h	/^    bool operator()(const QStringList &row1,$/;"	p	class:SpreadsheetCompare	access:public	signature:(const QStringList &row1, const QStringList &row2) const
+optionsMenu	mainwindow.h	/^		QMenu *optionsMenu;$/;"	m	class:MainWindow	access:private
+paste	spreadsheet.cpp	/^void Spreadsheet::paste()$/;"	f	class:Spreadsheet	signature:()
+paste	spreadsheet.h	/^    void paste();$/;"	p	class:Spreadsheet	access:public	signature:()
+pasteAction	mainwindow.h	/^		QAction *pasteAction;$/;"	m	class:MainWindow	access:private
+primarycolumncombo	ui_sortdialog.h	/^    QComboBox *primarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+primarygroupbox	ui_sortdialog.h	/^    QGroupBox *primarygroupbox;$/;"	m	class:Ui_Dialog	access:public
+primaryordercombo	ui_sortdialog.h	/^    QComboBox *primaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+readFile	spreadsheet.cpp	/^bool Spreadsheet::readFile(const QString &fileName)$/;"	f	class:Spreadsheet	signature:(const QString &fileName)
+readFile	spreadsheet.h	/^    bool readFile(const QString &fileName);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &fileName)
+readSettings	mainwindow.cpp	/^void MainWindow::readSettings()$/;"	f	class:MainWindow	signature:()
+recalculate	spreadsheet.cpp	/^void Spreadsheet::recalculate()$/;"	f	class:Spreadsheet	signature:()
+recalculate	spreadsheet.h	/^    void recalculate();$/;"	p	class:Spreadsheet	access:public	signature:()
+recalculateAction	mainwindow.h	/^		QAction *recalculateAction;$/;"	m	class:MainWindow	access:private
+recenFileActions	mainwindow.h	/^		QAction *recenFileActions[MaxRecentFiles];$/;"	m	class:MainWindow	access:private
+recenFiles	mainwindow.h	/^		QStringList recenFiles;$/;"	m	class:MainWindow	access:private
+redSettings	mainwindow.h	/^		void redSettings();$/;"	p	class:MainWindow	access:private	signature:()
+retranslateUi	ui_gotocelldialog.h	/^    void retranslateUi(QWidget *Form)$/;"	f	class:Ui_Form	access:public	signature:(QWidget *Form)
+retranslateUi	ui_sortdialog.h	/^    void retranslateUi(QDialog *Dialog)$/;"	f	class:Ui_Dialog	access:public	signature:(QDialog *Dialog)
+save	mainwindow.cpp	/^void MainWindow::save()$/;"	f	class:MainWindow	signature:()
+save	mainwindow.h	/^		bool save();$/;"	p	class:MainWindow	access:private	signature:()
+saveAction	mainwindow.h	/^		QAction *saveAction;$/;"	m	class:MainWindow	access:private
+saveAsAction	mainwindow.h	/^		QAction *saveAsAction;$/;"	m	class:MainWindow	access:private
+saveFile	mainwindow.cpp	/^bool MainWindow::saveFile(const Qstring &fileName)$/;"	f	class:MainWindow	signature:(const Qstring &fileName)
+saveFile	mainwindow.h	/^		bool saveFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+saveas	mainwindow.cpp	/^void MainWindow::saveas()$/;"	f	class:MainWindow	signature:()
+saveas	mainwindow.h	/^		bool saveas();$/;"	p	class:MainWindow	access:private	signature:()
+secondarygroupbox	ui_sortdialog.h	/^    QGroupBox *secondarygroupbox;$/;"	m	class:Ui_Dialog	access:public
+secondaryordercombo	ui_sortdialog.h	/^    QComboBox *secondaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+selectAllAction	mainwindow.h	/^		QAction *selectAllAction;$/;"	m	class:MainWindow	access:private
+selectColumnAction	mainwindow.h	/^		QAction *selectColumnAction;$/;"	m	class:MainWindow	access:private
+selectCurrentColumn	spreadsheet.cpp	/^void Spreadsheet::selectCurrentColumn()$/;"	f	class:Spreadsheet	signature:()
+selectCurrentColumn	spreadsheet.h	/^    void selectCurrentColumn();$/;"	p	class:Spreadsheet	access:public	signature:()
+selectCurrentRow	spreadsheet.cpp	/^void Spreadsheet::selectCurrentRow()$/;"	f	class:Spreadsheet	signature:()
+selectCurrentRow	spreadsheet.h	/^    void selectCurrentRow();$/;"	p	class:Spreadsheet	access:public	signature:()
+selectRowAction	mainwindow.h	/^		QAction *selectRowAction;$/;"	m	class:MainWindow	access:private
+selectSubMenu	mainwindow.h	/^		QMenu *selectSubMenu;$/;"	m	class:MainWindow	access:private
+selectedRange	spreadsheet.cpp	/^QTableWidgetSelectionRange Spreadsheet::selectedRange() const$/;"	f	class:Spreadsheet	signature:() const
+selectedRange	spreadsheet.h	/^    QTableWidgetSelectionRange selectedRange() const;$/;"	p	class:Spreadsheet	access:public	signature:() const
+sencondarycolumncombo	ui_sortdialog.h	/^    QComboBox *sencondarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+separatorAction	mainwindow.h	/^		QAction *separatorAction;$/;"	m	class:MainWindow	access:private
+setAutoRecalculate	spreadsheet.cpp	/^void Spreadsheet::setAutoRecalculate(bool recalc)$/;"	f	class:Spreadsheet	signature:(bool recalc)
+setAutoRecalculate	spreadsheet.h	/^    void setAutoRecalculate(bool recalc);$/;"	p	class:Spreadsheet	access:public	signature:(bool recalc)
+setColumnRange	sortdialog.cpp	/^void SortDialog::setColumnRange(QChar first, QChar last)$/;"	f	class:SortDialog	signature:(QChar first, QChar last)
+setColumnRange	sortdialog.h	/^		void setColumnRange(QChar first, QChar last);$/;"	p	class:SortDialog	access:public	signature:(QChar first, QChar last)
+setCurrentFile	mainwindow.cpp	/^void MainWindow::setCurrentFile(const QString &fileName)$/;"	f	class:MainWindow	signature:(const QString &fileName)
+setCurrentFile	mainwindow.h	/^		void setCurrentFile(const QString &fileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fileName)
+setData	cell.cpp	/^void Cell::setData(int role, const QVariant &value)$/;"	f	class:Cell	signature:(int role, const QVariant &value)
+setData	cell.h	/^    void setData(int role, const QVariant &value);$/;"	p	class:Cell	access:public	signature:(int role, const QVariant &value)
+setDirty	cell.cpp	/^void Cell::setDirty()$/;"	f	class:Cell	signature:()
+setDirty	cell.h	/^    void setDirty();$/;"	p	class:Cell	access:public	signature:()
+setFormula	cell.cpp	/^void Cell::setFormula(const QString &formula)$/;"	f	class:Cell	signature:(const QString &formula)
+setFormula	cell.h	/^    void setFormula(const QString &formula);$/;"	p	class:Cell	access:public	signature:(const QString &formula)
+setFormula	spreadsheet.cpp	/^void Spreadsheet::setFormula(int row, int column,$/;"	f	class:Spreadsheet	signature:(int row, int column, const QString &formula)
+setFormula	spreadsheet.h	/^    void setFormula(int row, int column, const QString &formula);$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column, const QString &formula)
+setupUi	ui_gotocelldialog.h	/^    void setupUi(QWidget *Form)$/;"	f	class:Ui_Form	access:public	signature:(QWidget *Form)
+setupUi	ui_sortdialog.h	/^    void setupUi(QDialog *Dialog)$/;"	f	class:Ui_Dialog	access:public	signature:(QDialog *Dialog)
+showGridAction	mainwindow.h	/^		QAction *showGridAction;$/;"	m	class:MainWindow	access:private
+somethingChanged	spreadsheet.cpp	/^void Spreadsheet::somethingChanged()$/;"	f	class:Spreadsheet	signature:()
+somethingChanged	spreadsheet.h	/^    void somethingChanged();$/;"	p	class:Spreadsheet	access:private	signature:()
+sort	mainwindow.cpp	/^void MainWindow::sort()$/;"	f	class:MainWindow	signature:()
+sort	mainwindow.h	/^		void sort();$/;"	p	class:MainWindow	access:private	signature:()
+sort	spreadsheet.cpp	/^void Spreadsheet::sort(const SpreadsheetCompare &compare)$/;"	f	class:Spreadsheet	signature:(const SpreadsheetCompare &compare)
+sort	spreadsheet.h	/^    void sort(const SpreadsheetCompare &compare);$/;"	p	class:Spreadsheet	access:public	signature:(const SpreadsheetCompare &compare)
+sortAction	mainwindow.h	/^		QAction *sortAction;$/;"	m	class:MainWindow	access:private
+spreadsheet	mainwindow.h	/^		Spreadsheet *spreadsheet;$/;"	m	class:MainWindow	access:private
+spreadsheetModified	mainwindow.cpp	/^void MainWindow::spreadsheetModified()$/;"	f	class:MainWindow	signature:()
+spreadsheetModified	mainwindow.h	/^		void spreadsheetModified();$/;"	p	class:MainWindow	access:private	signature:()
+strippedName	mainwindow.cpp	/^QString MainWindow::strippedName(const QString &fullFileName)$/;"	f	class:MainWindow	signature:(const QString &fullFileName)
+strippedName	mainwindow.h	/^		QString strippedName(const QString &fullFileName);$/;"	p	class:MainWindow	access:private	signature:(const QString &fullFileName)
+tertialygroupbox	ui_sortdialog.h	/^    QGroupBox *tertialygroupbox;$/;"	m	class:Ui_Dialog	access:public
+tertiarycolumncombo	ui_sortdialog.h	/^    QComboBox *tertiarycolumncombo;$/;"	m	class:Ui_Dialog	access:public
+tertiaryordercombo	ui_sortdialog.h	/^    QComboBox *tertiaryordercombo;$/;"	m	class:Ui_Dialog	access:public
+text	spreadsheet.cpp	/^QString Spreadsheet::text(int row, int column) const$/;"	f	class:Spreadsheet	signature:(int row, int column) const
+text	spreadsheet.h	/^    QString text(int row, int column) const;$/;"	p	class:Spreadsheet	access:private	signature:(int row, int column) const
+toolsMenu	mainwindow.h	/^		QMenu *toolsMenu;$/;"	m	class:MainWindow	access:private
+updataRecenFileActions	mainwindow.cpp	/^void MainWindow::updataRecenFileActions()$/;"	f	class:MainWindow	signature:()
+updateRecenFileActions	mainwindow.h	/^		void updateRecenFileActions();$/;"	p	class:MainWindow	access:private	signature:()
+updateStatusBar	mainwindow.h	/^		void updateStatusBar();$/;"	p	class:MainWindow	access:private	signature:()
+value	cell.cpp	/^QVariant Cell::value() const$/;"	f	class:Cell	signature:() const
+value	cell.h	/^    QVariant value() const;$/;"	p	class:Cell	access:private	signature:() const
+verticalLayout	ui_gotocelldialog.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_Form	access:public
+verticalLayout	ui_sortdialog.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_Dialog	access:public
+verticalSpacer	ui_sortdialog.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_Dialog	access:public
+verticalSpacer_2	ui_sortdialog.h	/^    QSpacerItem *verticalSpacer_2;$/;"	m	class:Ui_Dialog	access:public
+writeFile	spreadsheet.cpp	/^bool Spreadsheet::writeFile(const QString &fileName)$/;"	f	class:Spreadsheet	signature:(const QString &fileName)
+writeFile	spreadsheet.h	/^    bool writeFile(const QString &fileName);$/;"	p	class:Spreadsheet	access:public	signature:(const QString &fileName)
+writeSettings	mainwindow.cpp	/^void MainWindow::writeSettings()$/;"	f	class:MainWindow	signature:()
+writeSettings	mainwindow.h	/^		void writeSettings();$/;"	p	class:MainWindow	access:private	signature:()
